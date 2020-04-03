@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/LexiApp.dir/home/czx/lhg/Lexi/src/main.cpp.o CMakeFiles/LexiApp.dir/home/czx/lhg/Lexi/src/Window.cpp.o CMakeFiles/LexiApp.dir/home/czx/lhg/Lexi/src/Glyph.cpp.o CMakeFiles/LexiApp.dir/home/czx/lhg/Lexi/src/LexiApp.cpp.o CMakeFiles/LexiApp.dir/home/czx/lhg/Lexi/src/Compositor.cpp.o  -o LexiApp -rdynamic 
