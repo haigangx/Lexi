@@ -1,7 +1,7 @@
 #ifndef _GLYPH_H
 #define _GLYPH_H
 
-//м╪т╙юЮё╛нд╣╣╫А╧╧жпкЫсп╤тоС╣д╩ЫюЮ
+//Е⌡╬Е┘┐Г╠╩О╪▄Ф√┤Ф║ёГ╩⌠Ф·└Д╦╜Ф┴─Ф°┴Е╞╧Х╠║Г └Е÷╨Г╠╩
 class Window;
 class Glyph
 {
@@ -9,9 +9,9 @@ public:
     Glyph(){};
     ~Glyph(){};
     virtual void Draw(Window*){};
-    //virtual void Bounds(Rect&); //╥╣╩ьм╪т╙у╪╬щ╣д╬ьпнгЬсР
-    //virtual bool Intersects(const Point&);  //еп╤ор╩╦Жж╦╤╗╣Цйг╥ЯсКм╪т╙оЮ╫╩
-    //м╪т╙©иртс╣спвсм╪т╙ё╛кЫртспуК╤твсм╪т╙╣др╩о╣ап╡ывВ
+    //virtual void Bounds(Rect&); //Х©■Е⌡·Е⌡╬Е┘┐Е█═Ф█╝Г └Г÷╘Е╫╒Е▄╨Е÷÷
+    //virtual bool Intersects(const Point&);  //Е┬╓Ф√╜Д╦─Д╦╙Ф▄┤Е╝ Г┌╧Ф≤╞Е░╕Д╦▌Е⌡╬Е┘┐Г⌡╦Д╨╓
+    //Е⌡╬Е┘┐Е▐╞Д╩╔Ф▀╔Ф°┴Е╜░Е⌡╬Е┘┐О╪▄Ф┴─Д╩╔Ф°┴И▓┬Е╞╧Е╜░Е⌡╬Е┘┐Г └Д╦─ГЁ╩Е┬≈Ф⌠█Д╫°
     virtual void Insert(Glyph*, int){};
     virtual void Remove(Glyph*){};
     virtual Glyph* Child(int){};
